@@ -11,6 +11,7 @@
 		192E87292B7E293E00CEACDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E87282B7E293E00CEACDD /* ContentView.swift */; };
 		192E872B2B7E293F00CEACDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192E872A2B7E293F00CEACDD /* Assets.xcassets */; };
 		192E872E2B7E293F00CEACDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192E872D2B7E293F00CEACDD /* Preview Assets.xcassets */; };
+		19EA58042B7F2608003A36CB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA58032B7F2608003A36CB /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		192E87282B7E293E00CEACDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		192E872A2B7E293F00CEACDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192E872D2B7E293F00CEACDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19EA58032B7F2608003A36CB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				192E87262B7E293E00CEACDD /* QuizzlerApp.swift */,
 				192E87282B7E293E00CEACDD /* ContentView.swift */,
+				19EA58032B7F2608003A36CB /* Question.swift */,
 				192E872A2B7E293F00CEACDD /* Assets.xcassets */,
 				192E872C2B7E293F00CEACDD /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EA58042B7F2608003A36CB /* Question.swift in Sources */,
 				192E87292B7E293E00CEACDD /* ContentView.swift in Sources */,
 				192E87272B7E293E00CEACDD /* QuizzlerApp.swift in Sources */,
 			);
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
